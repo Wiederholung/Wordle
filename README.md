@@ -12,11 +12,13 @@ This is a New York Times style Wordle game developed in Java.
 
 ## Structure
 
-The workspace contains two folders by default, where:
+The workspace contains 4 folders by default, where are:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-- `doc`: the folder to maintain documentation files
+- `src`: source code
+- `doc`: JavaDoc
+- `out`: compiled files
+- `resources`: word database and test case
+
 
 ## Complie & Run
 
@@ -26,9 +28,13 @@ Open with VS Code/IDEA and run the main method in Wordle.java, or run the follow
 > 2. javac -d . *.java
 > 3. java Wordle
 
+
 ## Test
+
 See in resources folder.
 
+
 ## Reference
+
 - [New York Times](https://www.nytimes.com/games/wordle/index.html)
 - [Functional Design Document](https://www.mubucm.com/doc/7zAyAh92DyW)

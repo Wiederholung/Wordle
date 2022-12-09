@@ -21,13 +21,13 @@ public class WordDB {
      * This method gets a random word from the word list amd stores it in the answer array.
      */
     public static void getAnswer(){
-        String path = "lib/WordDB.txt";
+        String path = "resources/WordDB.txt";
         // check if WordDB.txt exists
         if (Files.exists(Paths.get(path))) {
             System.out.println("Running by IDE:");
         }
         else {
-            path = "../lib/WordDB.txt";
+            path = "../resources/WordDB.txt";
             System.out.println("Running by command line:");
         }
         String str;
