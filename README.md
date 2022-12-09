@@ -16,12 +16,17 @@ The workspace contains two folders by default, where:
 
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
-- `bin`: the folder to maintain compiled output files
+- `doc`: the folder to maintain documentation files
 
 ## Complie & Run
 
-> cd src/wordle
-> javac -d . *.java && java wordle.Wordle
+> 1. cd src
+> 2. javac -d . *.java
+> 3. java Wordle
 
 ## Test
-> See in resources folder.
+See in resources folder.
+
+## Reference
+- [New York Times](https://www.nytimes.com/games/wordle/index.html)
+- [Functional Design Document](https://www.mubucm.com/doc/7zAyAh92DyW)
