@@ -31,7 +31,7 @@ Open with VS Code/IDEA and run the main method in Wordle.java, or run the follow
 
 ## Test
 
-See in resources folder.
+See in `resources` folder.
 
 
 ## Reference
