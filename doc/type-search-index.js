@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"wiederholung","l":"BlockMatrix.Block"},{"p":"wiederholung","l":"BlockMatrix"},{"p":"wiederholung","l":"Coloring"},{"p":"wiederholung","l":"GUI"},{"p":"wiederholung","l":"PrintLetter"},{"p":"wiederholung","l":"Style"},{"p":"wiederholung","l":"WordDB"},{"p":"wiederholung","l":"Wordle"}];updateSearchResults();

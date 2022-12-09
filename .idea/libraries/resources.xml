@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="resources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/resources/wordle-ggl.zip!/" />
+      <root url="jar://$PROJECT_DIR$/resources/eWordle-main.zip!/" />
+      <root url="jar://$PROJECT_DIR$/resources/miniproject Junxiang Wang 200980478.zip!/" />
+      <root url="jar://$PROJECT_DIR$/resources/WordishGame.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
