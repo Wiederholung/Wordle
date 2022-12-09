@@ -20,6 +20,8 @@ The workspace contains two folders by default, where:
 
 ## Complie & Run
 
+Open with VS Code/IDEA and run the main method in Wordle.java, or run the following command in the terminal:
+
 > 1. cd src
 > 2. javac -d . *.java
 > 3. java Wordle

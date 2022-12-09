@@ -1,9 +1,10 @@
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 /**
  * To read the words from txt and check the words from user.
@@ -20,19 +21,18 @@ public class WordDB {
      * This method gets a random word from the word list amd stores it in the answer array.
      */
     public static void getAnswer(){
-        String path;
-        BufferedReader in;
-        try {
+        String path = "lib/WordDB.txt";
+        // check if WordDB.txt exists
+        if (Files.exists(Paths.get(path))) {
+            System.out.println("Running by IDE:");
+        }
+        else {
             path = "../lib/WordDB.txt";
-            new BufferedReader(new FileReader(path));
             System.out.println("Running by command line:");
-        } catch (FileNotFoundException e) {
-            path = "lib/WordDB.txt";
-            System.out.println("Running by IDEA:");
         }
         String str;
         try {
-            in = new BufferedReader(new FileReader(path));
+            BufferedReader in = new BufferedReader(new FileReader(path));
             while ((str = in.readLine()) != null) {word.add(str);}   
             in.close();
         }
