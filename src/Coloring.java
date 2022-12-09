@@ -1,5 +1,3 @@
-package wiederholung;
-
 /**
  * Color the blocks.
  * @author Yitong Hu

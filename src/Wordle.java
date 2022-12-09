@@ -1,5 +1,3 @@
-package wiederholung;
-
 /**
  * Main
  * @author Yitong Hu

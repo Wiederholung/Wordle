@@ -1,6 +1,5 @@
-package wiederholung;
-
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -21,11 +20,19 @@ public class WordDB {
      * This method gets a random word from the word list amd stores it in the answer array.
      */
     public static void getAnswer(){
-        // String path = "lib\\WordDB.txt";
-        String path = "lib\\WordDB.txt";
+        String path;
+        BufferedReader in;
+        try {
+            path = "../lib/WordDB.txt";
+            new BufferedReader(new FileReader(path));
+            System.out.println("Running by command line:");
+        } catch (FileNotFoundException e) {
+            path = "lib/WordDB.txt";
+            System.out.println("Running by IDEA:");
+        }
         String str;
         try {
-            BufferedReader in = new BufferedReader(new FileReader(path));
+            in = new BufferedReader(new FileReader(path));
             while ((str = in.readLine()) != null) {word.add(str);}   
             in.close();
         }
