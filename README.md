@@ -1,6 +1,6 @@
 ## Getting Started
 
-This is a New York Times style Wordle game developed in Java.
+This is a New York Times style Wordle game developed in Java Swing.
 
 - Guess the Wordle word in tries just one more than the word length you selected.
 - Each guess must be a valid word with the length you selected.
