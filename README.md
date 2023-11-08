@@ -1,6 +1,6 @@
 # Wordle
 
-> Course Project of EBU4201 (2021/22): Introductory Java Programming
+> Course Project of EBU4201 Introductory Java Programming (2021/22)
 
 ## Getting Started
 
