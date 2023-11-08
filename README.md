@@ -1,3 +1,7 @@
+# Wordle
+
+> Course Project of EBU4201 (2021/22): Introductory Java Programming
+
 ## Getting Started
 
 This is a New York Times style Wordle game developed in Java Swing.
@@ -5,10 +9,9 @@ This is a New York Times style Wordle game developed in Java Swing.
 - Guess the Wordle word in tries just one more than the word length you selected.
 - Each guess must be a valid word with the length you selected.
 - For each letter you confirm to enter, it will show:
-  - Green if it is in the word and in the correct spot.
-  - Yellow if it is in the word but in the wrong spot.
-  - Grey if it is not in the word in any spot.
-
+    - Green if it is in the word and in the correct spot.
+    - Yellow if it is in the word but in the wrong spot.
+    - Grey if it is not in the word in any spot.
 
 ## Structure
 
@@ -19,7 +22,6 @@ The workspace contains 4 folders by default, where are:
 - `out`: compiled files
 - `resources`: word database and test case
 
-
 ## Complie & Run
 
 Open with VS Code/IDEA and run the main method in Wordle.java, or run the following command in the terminal:
@@ -28,11 +30,9 @@ Open with VS Code/IDEA and run the main method in Wordle.java, or run the follow
 > 2. javac -d . *.java
 > 3. java Wordle
 
-
 ## Test
 
 See in `resources` folder.
-
 
 ## Reference
 
