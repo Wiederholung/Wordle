@@ -26,9 +26,11 @@ The workspace contains 4 folders by default, where are:
 
 Open with VS Code/IDEA and run the main method in Wordle.java, or run the following command in the terminal:
 
-> 1. cd src
-> 2. javac -d . *.java
-> 3. java Wordle
+```bash
+cd src
+javac -d . *.java
+java Wordle
+```
 
 ## Test
 
